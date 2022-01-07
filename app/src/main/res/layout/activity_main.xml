@@ -1,0 +1,66 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_timer1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="32sp"
+        android:hint="Select Time"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:drawableTop="@drawable/ic_time"
+        android:drawablePadding="16dp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/tv_timer2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="32sp"
+        android:hint="Select Time"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:drawableTop="@drawable/ic_time"
+        android:drawablePadding="16dp"
+
+        />
+
+</LinearLayout>
+
+
+
+
+<!--
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    >
+    <TextView
+        android:id="@+id/tv"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#3A69D3"
+        />
+    &lt;!&ndash;This example works only timePickerMode=spinner only, not in clock mode&ndash;&gt;
+    <TimePicker
+        android:id="@+id/tp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv"
+        android:timePickerMode="spinner"
+        />
+</RelativeLayout>-->
